@@ -1,4 +1,8 @@
-﻿using System;
+﻿/// Week 12		Lab 1
+/// File Name: Program.cs
+/// @author: Antonio Monteiro
+
+using System;
 
 namespace Lab2 {
     class Program {

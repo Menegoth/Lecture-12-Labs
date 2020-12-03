@@ -1,4 +1,8 @@
-﻿using System;
+﻿/// Week 12	Lab  2
+/// File Name: Program.cs
+/// @author: Antonio Monteiro
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -19,7 +23,7 @@ namespace Lecture_12_Labs {
                 while ((line = reader.ReadLine()) != null) {
                     string[] lineData = line.Split(delimiterChars);
                     boyNames.Add(lineData[0], Int32.Parse(lineData[1]));
-                } 
+                }
             }
 
             //create the girlNames dictionary based on textFile
